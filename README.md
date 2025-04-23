@@ -1,6 +1,14 @@
 # Verdit AI-Powered Response Assistant
 
-This Chrome extension helps you craft professional responses to client inquiries across various online conversations using OpenAI GPT. 
+Hi! I'm Vitor ([@vitorpepz](https://x.com/vitorpepz)), and I built [verdit.site/freetool](https://verdit.site/freetool), a Chrome extension that helps you craft professional responses to client inquiries using OpenAI GPT. I built it for myself to save me time answering clients FAQs and more. You can use it on WhatsApp, email, Instagram, LinkedIn or any website.
+
+The software works by internally getting the html content from the page where the conversation is happening, then converting it to Markdown and submitting it to GPT-4.1 together with the instructions. It will then try to post the content on the answer box (if no text appears but you see the green OK, you'll need to past it manually (Ctrl/Cmd + V)) so you can review the answer before sending.
+
+I found it super useful to answer the FAQs from clients, but it also worked well with other requests - you can save the instructions for GPT with the FAQs, and it will more than often guess correctly a perfect good answer for that client, keeping the tone/voice of the FAQs you provided it.
+
+It is MIT licensed, so you're free to build on top of it or even commercialize if you want so. 
+
+I hope it is useful for you! I'd love to hear your thoughts and ideas! ([@vitorpepz](https://x.com/vitorpepz))
 
 Visit [verdit.site/freetool](https://verdit.site/freetool) for more information.
 
